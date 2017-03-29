@@ -6,11 +6,13 @@ using System.Threading.Tasks;
 
 namespace PruebaExpo
 {
-    class Program
+    public class Persona
     {
-        static void Main(string[] args)
+        int edad;
+        string nombre;
+        public Persona(int edad,string nombre)
         {
-            Console.WriteLine();
+
         }
     }
 }
